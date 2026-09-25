@@ -1,15 +1,18 @@
 <div align="center">
-  <img src="./assets/developer-workspace.svg" alt="A neon developer workstation with code editor and terminal windows" width="100%" />
+  <picture>
+    <source srcset="./assets/workstation-ambient.gif" type="image/gif" />
+    <img src="./assets/workstation-3d.png" alt="Animated 3D developer workstation with monitors, terminal interfaces, plants, a Linux figurine, and a rainy neon city" width="100%" />
+  </picture>
 </div>
 
-```text
-noel-ult@github:~$ whoami
+```console
+noel-ult@github:~$ ./boot-profile
 
 NOEL BIJU
 Computer Science Student · Developer · Builder · AI Explorer
 
-I turn ideas into software, break them, figure out why,
-and occasionally build something completely unnecessary.
+I build software, trace the systems behind it,
+and occasionally make something gloriously unnecessary.
 ```
 
 <div align="center">
@@ -20,12 +23,12 @@ and occasionally build something completely unnecessary.
 
 ---
 
-## 01 / currently
+## 01 / system: online
 
 ```console
 $ systemctl --user status noel
 
-● noel.service — builder mode
+● noel.service — workstation initialized
    Active: active (running)
 
 > building PageRadar — intelligent web monitoring
@@ -35,7 +38,7 @@ $ systemctl --user status noel
 > running Linux (Arch btw)
 ```
 
-## 02 / featured
+## 02 / launchpad
 
 | PROJECT | WHAT IT DOES | STACK | SOURCE |
 | :-- | :-- | :-- | :-- |
@@ -49,7 +52,7 @@ PageRadar note: the monitor currently runs in-process for one API instance.
 Public HTTP/HTTPS HTML pages only. Distributed scheduling comes before replicas.
 ```
 
-## 03 / more projects
+## 03 / project archive
 
 - `[ AI_BUDDY ]` Python assistant experiment — [source](https://github.com/noel-ult/AI_BUDDY)
 - `[ DevOps ]` Containerized Express task API with GitHub Actions validation — [source](https://github.com/noel-ult/DevOps)
@@ -58,7 +61,7 @@ Public HTTP/HTTPS HTML pages only. Distributed scheduling comes before replicas.
 - `[ AWS Cloud ]` Small Flask + Docker cloud project — [source](https://github.com/noel-ult/aws-cloud)
 - `[ portfolio ]` Personal portfolio built with Next.js — [source](https://github.com/noel-ult/portfolio)
 
-## 04 / engineering stack
+## 04 / toolchain
 
 ```yaml
 languages:  [Python, TypeScript, JavaScript, Java, C++, SQL]
@@ -83,13 +86,13 @@ currently = "building"
 status    = "shipping, debugging, repeating"
 ```
 
-## 06 / philosophy
+## 06 / operating principles
 
 > Build first. Understand deeply. Debug the cause instead of decorating the symptom.
 
 I like systems that can be explained, inspected, and changed without fear. That means making the first useful version, tracing the weird failures, refactoring the rough edges, and saving space for experiments that sound slightly ridiculous.
 
-## 07 / telemetry
+## 07 / system map
 
 ```text
 github.com/noel-ult
@@ -99,7 +102,7 @@ github.com/noel-ult
 └── a healthy disregard for boring project ideas
 ```
 
-## 08 / journey
+## 08 / build log
 
 | STAGE | SIGNAL |
 | :-- | :-- |
