@@ -1,12 +1,15 @@
-<img align="right" width="36%" src="./assets/software-sculpture-orbit.gif" alt="A luminous crystalline software core suspended inside three intersecting orbital rings, with subtle light glints traveling along the rings" />
+<div align="center">
+  <picture>
+    <source srcset="./assets/profile-hero.gif" type="image/gif" />
+    <img src="./assets/profile-hero.png" alt="NOEL BIJU over a dark background with a crystalline software core and luminous orbital rings" width="100%" />
+  </picture>
+</div>
 
-# NOEL BIJU
-
+<div align="center">
 **Software builder · systems explorer · professional overthinker of side projects**
 
 [Portfolio](https://noelbiju.in) · [GitHub](https://github.com/noel-ult) · [LinkedIn](https://www.linkedin.com/in/noel-biju-788b81332)
-
-<br clear="right" />
+</div>
 
 <div align="center">
   <img src="./assets/command-deck.svg" alt="Noel Biju's visual developer command deck: active work, featured projects, engineering stack, and operating principles" width="100%" />
