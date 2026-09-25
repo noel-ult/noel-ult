@@ -1,7 +1,7 @@
 <div align="center">
   <picture>
-    <source srcset="./assets/developer-studio-rotation.gif" type="image/gif" />
-    <img src="./assets/developer-studio.png" alt="A 3D developer workstation at night with a rotating cyan holographic globe above the monitors" width="100%" />
+    <source srcset="./assets/software-sculpture-orbit.gif" type="image/gif" />
+    <img src="./assets/software-sculpture.png" alt="A luminous crystalline software core suspended inside three intersecting orbital rings, with subtle light glints traveling along the rings" width="100%" />
   </picture>
 </div>
 
