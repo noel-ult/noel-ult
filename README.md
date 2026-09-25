@@ -6,7 +6,7 @@
 </div>
 
 <div align="center">
-Software builder · systems explorer · professional overthinker of side projects
+· Software builder · systems explorer · professional overthinker of side projects
 
 [Portfolio](https://noelbiju.in) · [GitHub](https://github.com/noel-ult) · [LinkedIn](https://www.linkedin.com/in/noel-biju-788b81332)
 </div>
