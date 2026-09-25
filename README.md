@@ -42,6 +42,7 @@ $ systemctl --user status noel
 | **PageRadar** | Monitors public HTML pages. It stores an immutable baseline, then records changed content as new snapshots, `CONTENT_CHANGED` events, and check history. | Next.js · NestJS · Apollo GraphQL · Prisma · Supabase PostgreSQL · Docker/Dokploy | [open ↗](https://github.com/noel-ult/PageRadar) |
 | **EtlabPro** | Full-stack companion for Sahrdaya ETLAB users: authenticated sync, attendance, CAT and semester results, calendar, timetable, and analytics. | Flutter · FastAPI · Supabase · ETLAB scraping · JWT · Dokploy | [open ↗](https://github.com/noel-ult/EtlabPro) |
 | **VERITAS AI** | Evidence-driven technical interviewing: adaptive questions, evidence extraction, competency verification, telemetry, and printable assessment reports. | Next.js 15 · FastAPI · Framer Motion · Docker · Dokploy | [open ↗](https://github.com/noel-ult/Veritas-ai) |
+| **Choru Vaari Kodukkam** | A computer-vision experiment that estimates personal rice-handful capacity and expresses rice quantity in *vaaris*. | TypeScript · React · Next.js · Tailwind · MediaPipe Tasks Vision · Canvas API | [open ↗](https://github.com/noel-ult/chooru-varal) |
 
 ```text
 PageRadar note: the monitor currently runs in-process for one API instance.
