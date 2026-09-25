@@ -1,7 +1,7 @@
 <div align="center">
   <picture>
-    <source srcset="./assets/engineering-constellation.gif" type="image/gif" />
-    <img src="./assets/engineering-constellation.png" alt="Animated isometric 3D model of Noel's engineering constellation: workstation, servers, cloud, container, database, computer vision, and mobile systems" width="100%" />
+    <source srcset="./assets/developer-studio-rotation.gif" type="image/gif" />
+    <img src="./assets/developer-studio.png" alt="A 3D developer workstation at night with a rotating cyan holographic globe above the monitors" width="100%" />
   </picture>
 </div>
 
