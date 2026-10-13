@@ -24,3 +24,7 @@
 <sub>Build first. Understand deeply. Refactor relentlessly.</sub>
 
 </div>
+
+<!-- documentation-navigation -->
+[Developer guide](docs/PROJECT_GUIDE.md) · [Source reference](docs/REFERENCE.md) · [Contributing](CONTRIBUTING.md)
+<!-- /documentation-navigation -->
