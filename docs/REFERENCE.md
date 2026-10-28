@@ -1,14 +1,21 @@
 # noel-ult source reference
 
-This repository renders the root README on the GitHub profile. It has no application routes or runtime configuration.
+Source reviewed: [`947e34ab0f73`](https://github.com/noel-ult/noel-ult/commit/947e34ab0f73e3420086741bde18adb7f8d1fa9a).
 
-| Source | Purpose |
-| --- | --- |
-| [README](../README.md) | Profile introduction, project descriptions, and navigation |
-| [Artwork source](ARTWORK.md) | Palette, font licenses, rebuild instructions, and playback limitations |
-| [Animation renderer](../scripts/render-assets.cjs) | Local Canvas rendering and FFmpeg GIF encoding |
-| [Project guide](PROJECT_GUIDE.md) | Maintenance and publishing checks |
+This reference records the checked-in source, scripts, configuration names, and route declarations. It is a navigation aid; service availability and successful test execution require separate verification.
 
-The renderer optionally accepts `PLAYWRIGHT_MODULE` and `CHROMIUM_PATH` to use existing local tool installations. It produces the GIF and static PNG referenced by the profile.
+## Existing documentation
 
-The editable drawing source is [artwork.html](../scripts/artwork.html). Font binaries and their licenses are bundled in `assets/fonts/`.
+Historical plans/reports describe their own revision; use current source when they disagree.
+
+- [CONTRIBUTING.md](../CONTRIBUTING.md)
+- [README.md](../README.md)
+- [docs/ARTWORK.md](../docs/ARTWORK.md)
+- [docs/PROJECT_GUIDE.md](../docs/PROJECT_GUIDE.md)
+- [docs/REFERENCE.md](../docs/REFERENCE.md)
+
+## Source and configuration map
+
+Generated lockfiles, binary assets, compiled output, vendored dependencies, and cached bytecode are omitted. Test files remain listed so coverage can be located.
+
+- [scripts/artwork.html](../scripts/artwork.html)
