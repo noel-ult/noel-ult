@@ -4,9 +4,9 @@ This repository is the GitHub profile repository for `noel-ult`. GitHub renders 
 
 ## Content and assets
 
-`README.md` composes the animated inventor workbench, profile/social links, and four featured-project descriptions. `assets/workbench.gif` is the animation and `assets/workbench-still.png` is the static fallback. Preserve relative paths and meaningful image alternative text when replacing assets.
+`README.md` combines the Systems in Motion animated identity, introduction, four featured projects, local AI/systems experiments, grouped skills, and social links. `assets/systems.gif` is the animation and `assets/systems-still.png` is the static fallback. Preserve relative paths, credits, and descriptive alternative text.
 
-Update the Markdown links when project names or portfolio URLs change. The original illustration and prompt are in `assets/source/`; changing Markdown does not update text drawn into the artwork. Rebuild the animation with `node scripts/render-workbench.cjs` using Node.js, Playwright with Chromium, and FFmpeg. See [artwork maintenance](../assets/source/README.md) for environment overrides and timing. Preview GIF and PNG fallback separately and check the profile at a narrow viewport.
+Update Markdown when personal details or projects change. Rebuild artwork with `node scripts/render-assets.cjs` using Node.js, Playwright with Chromium, and FFmpeg. [Artwork maintenance](ARTWORK.md) documents sources, font licenses, tool setup, environment overrides, and verification.
 
 ## Publishing and verification
 

@@ -1,52 +1,66 @@
 <picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/workbench-still.png" />
-  <source srcset="./assets/workbench.gif" type="image/gif" />
-  <img src="./assets/workbench-still.png" alt="Noel Biju's inventor's workbench: a miniature escape maze, a webpage radar, an image inspection viewer, and a very serious rice experiment." width="100%" />
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/systems-still.png" />
+  <source srcset="./assets/systems.gif" type="image/gif" />
+  <img src="./assets/systems-still.png" alt="Noel Biju — follow the question. Electric-blue diagrams explore pathfinding, webpage changes, and local AI." width="100%" />
 </picture>
 
-[View the still workbench](./assets/workbench-still.png)
+[Pause the motion: view the still](./assets/systems-still.png)
 
-# Hey, I'm Noel.
+# I'm Noel.
 
-I build web tools, explore AI systems, and occasionally turn a ridiculous idea into working software. This is my bench: a few useful things, a few experiments, and plenty left to figure out.
+A computer science student from Kerala. I build web tools, experiment with local AI, and follow interesting questions into code. Sometimes that means a reliable background worker. Sometimes it means measuring rice in handfuls.
 
-[Portfolio ↗](https://noelbiju.in) · [LinkedIn ↗](https://www.linkedin.com/in/noel-biju-788b81332)
+**B.Tech Computer Science · Sahrdaya · 2024–2028**
 
-## Four things on the bench
+[Portfolio ↗](https://noelbiju.in) &nbsp; / &nbsp; [LinkedIn ↗](https://www.linkedin.com/in/noel-biju-788b81332) &nbsp; / &nbsp; [All repositories ↗](https://github.com/noel-ult?tab=repositories)
 
-### 01 · [Reverse Escape: Mind Wars](https://github.com/noel-ult/revescape)
+## What I'm building
 
-You build the trap. The agent tries to find its way out. A 3D escape-room game with a scout that explores under partial observation, plans with A*, and remembers discovered traps. Built for Devin Hacks Kochi 2026.
+[![Reverse Escape — build the trap, watch the agent adapt](./assets/reverse-escape.png)](https://github.com/noel-ult/revescape)
 
-**Inside:** Three.js · frontier exploration · A* · server-side room validation
+**[Reverse Escape: Mind Wars](https://github.com/noel-ult/revescape)** — Design escape rooms for a scout that starts with partial knowledge. Frontier exploration and A* drive its search; discovered traps inform later attempts. Built for Devin Hacks Kochi 2026.
 
-### 02 · [PageRadar](https://github.com/noel-ult/PageRadar)
+`Three.js` · `TypeScript` · `A* search` · `room validation`
 
-For the webpages you keep checking manually. A monitoring beta that detects meaningful changes and shows the before-and-after evidence, backed by durable checks, retries, and alerts.
+[![PageRadar — the web changes, keep the evidence](./assets/pageradar.png)](https://github.com/noel-ult/PageRadar)
 
-**Inside:** Next.js · NestJS / GraphQL · PostgreSQL · BullMQ / Redis
+**[PageRadar](https://github.com/noel-ult/PageRadar)** — A monitoring beta for the pages you keep checking manually. Detect meaningful changes, inspect before-and-after evidence, and follow checks through queues, retries, and alerts.
 
-### 03 · [TruthLens](https://github.com/noel-ult/Truthlens)
+`Next.js` · `NestJS / GraphQL` · `PostgreSQL` · `BullMQ / Redis`
 
-An experiment in telling real and AI-generated images apart. A CLIP-based detector, comparison models, and a Streamlit inspection app—with evaluation results and limitations documented in the repo.
+[![TruthLens — look closer, question the prediction](./assets/truthlens.png)](https://github.com/noel-ult/Truthlens)
 
-**Inside:** Python · PyTorch · CLIP · scikit-learn · Streamlit
+**[TruthLens](https://github.com/noel-ult/Truthlens)** — An experiment in distinguishing real and AI-generated images. A CLIP-based detector, comparison models, and an inspection app, with evaluation results and limitations documented alongside the code.
 
-### 04 · [Choru Vaari Kodukkam](https://github.com/noel-ult/chooru-varal)
+`Python` · `PyTorch / CLIP` · `scikit-learn` · `Streamlit`
 
-How many handfuls of rice are on that plate? Hand landmarks estimate your vaari capacity; image segmentation estimates the choru. A suspiciously serious answer to a wonderfully unnecessary question. Built with Samuel Thomas C.
+[![Choru Vaari — a very serious handful of rice](./assets/choru-vaari.png)](https://github.com/noel-ult/chooru-varal)
 
-**Inside:** TypeScript · Next.js · MediaPipe · Canvas · TinkerHub Useless Projects
+**[Choru Vaari Kodukkam](https://github.com/noel-ult/chooru-varal)** — Estimate your rice-handful capacity from hand landmarks, then count the vaaris on a plate. I worked on hand tracking, vaari estimation, and the frontend; Samuel Thomas C contributed rice-image analysis, UI, and testing. Built at TinkerHub Useless Projects.
 
-## On the bench lately
+`TypeScript` · `Next.js` · `MediaPipe` · `Canvas`
 
-Agents whose decisions you can inspect, web systems that survive failed jobs, and computer vision experiments that make me question the dataset before trusting the result.
+### Local AI & systems experiments
 
-**Tools within reach:** TypeScript, Python, React / Next.js, FastAPI / NestJS, PostgreSQL, Docker, and Linux.
+**[AI Buddy](https://github.com/noel-ult/AI_BUDDY)** — A terminal assistant with local Ollama inference, SQLite memory, and reminders. Exploring how useful an assistant can be with the model running locally.
+
+**[Flexy](https://github.com/noel-ult/Flexy)** — A narrowly supported package-conversion experiment: inspect a Linux `.deb` and build an Arch package when an exact supported recipe matches.
+
+## How I build
+
+<img src="./assets/skills.png" alt="Foundations to systems to experiments" width="100%" />
+
+**Foundations** &nbsp; C / C++ · Python · TypeScript · SQL · algorithms · databases
+
+**Web systems** &nbsp; React / Next.js · FastAPI · NestJS / GraphQL · PostgreSQL · Redis
+
+**AI & tooling** &nbsp; PyTorch · CLIP · Ollama · Git · Docker · Linux
+
+I like tracing a system from input to output, finding where the assumptions break, and building enough of it to understand the tradeoffs. Local models, observable agents, and dependable background jobs keep pulling me back.
 
 ---
 
-Got an interesting build, a strange idea, or a better way to solve one of these? [Let's compare notes.](https://www.linkedin.com/in/noel-biju-788b81332)
+Building something unusual, experimenting with local AI, or untangling a system? [Let's talk.](https://www.linkedin.com/in/noel-biju-788b81332)
 
 <!-- documentation-navigation -->
 [Developer guide](docs/PROJECT_GUIDE.md) · [Source reference](docs/REFERENCE.md) · [Contributing](CONTRIBUTING.md)
