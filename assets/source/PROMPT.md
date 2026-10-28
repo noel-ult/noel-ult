@@ -1,0 +1,10 @@
+# Workbench illustration
+
+Generated with the built-in imagegen tool. This saved image is the source for the deterministic local animation; regeneration of the illustration is not required to rebuild the GIF.
+
+```text
+Use case: stylized-concept. Asset: wide 3:2 illustrated overhead inventor's workbench hero for Noel Biju's GitHub profile.
+Create a beautifully art-directed tactile miniature workshop, viewed directly overhead, warm dark walnut desk, charcoal metal instruments, cream graph paper, copper wires, warm amber indicator lights, orange pencil, a few useful tools. Premium stop-motion model / detailed editorial illustration, restrained cinematic warm lamplight, no people.
+Composition precisely organized but natural, all objects seen from above with no perspective tilt. Top central 25 percent has a large engraved brass nameplate reading exactly "NOEL BIJU" in confident large lettering, with small "noel-ult" underneath. Below this four distinct experiments in spacious quadrants: upper left a square 8x8 miniature maze board with cream walls and a tiny orange scout, label "01 / REVERSE ESCAPE"; upper right a round vintage radar instrument with dark empty circular screen, two paper webpage snapshots alongside, label "02 / PAGERADAR"; lower left a square photographic inspection viewer with a split botanical image, label "03 / TRUTHLENS"; lower right a white plate of rice on a paper diagram with a simple hand outline and measurement marks, label "04 / CHORU VAARI". At very bottom a taped cream paper note reading exactly "Useful tools. Curious systems." Leave generous breathing room between objects. Small pencil annotations and wiring connect ideas, no clutter.
+Important: no dashboard, no web UI, no floating cards, no sci-fi neon, no buttons, no watermarks. Crisp readable main name and four numbered labels. Make name and project objects large enough for a mobile profile. All four experiments and all text fully within the image frame. The radar screen should remain dark except for concentric rings; animation will be added locally.
+```

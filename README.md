@@ -1,29 +1,52 @@
-<div align="center">
-  <picture>
-    <source srcset="./assets/profile-hero.gif" type="image/gif" />
-    <img src="./assets/profile-hero.png" alt="NOEL BIJU over a dark background with a crystalline software core and luminous orbital rings" width="100%" />
-  </picture>
-</div>
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/workbench-still.png" />
+  <source srcset="./assets/workbench.gif" type="image/gif" />
+  <img src="./assets/workbench-still.png" alt="Noel Biju's inventor's workbench: a miniature escape maze, a webpage radar, an image inspection viewer, and a very serious rice experiment." width="100%" />
+</picture>
 
-<div align="center">
-· Software builder · systems explorer · professional overthinker of side projects
+[View the still workbench](./assets/workbench-still.png)
 
-[Portfolio](https://noelbiju.in) · [GitHub](https://github.com/noel-ult) · [LinkedIn](https://www.linkedin.com/in/noel-biju-788b81332)
-</div>
+# Hey, I'm Noel.
 
-<div align="center">
-  <img src="./assets/command-deck.svg" alt="Noel Biju's visual developer command deck: active work, featured projects, engineering stack, and operating principles" width="100%" />
-</div>
+I build web tools, explore AI systems, and occasionally turn a ridiculous idea into working software. This is my bench: a few useful things, a few experiments, and plenty left to figure out.
 
-<div align="center">
+[Portfolio ↗](https://noelbiju.in) · [LinkedIn ↗](https://www.linkedin.com/in/noel-biju-788b81332)
 
-**Explore the builds**
+## Four things on the bench
 
-[PageRadar](https://github.com/noel-ult/PageRadar) · [EtlabPro](https://github.com/noel-ult/EtlabPro) · [VERITAS AI](https://github.com/noel-ult/Veritas-ai) · [Choru Vaari Kodukkam](https://github.com/noel-ult/chooru-varal)
+### 01 · [Reverse Escape: Mind Wars](https://github.com/noel-ult/revescape)
 
-<sub>Build first. Understand deeply. Refactor relentlessly.</sub>
+You build the trap. The agent tries to find its way out. A 3D escape-room game with a scout that explores under partial observation, plans with A*, and remembers discovered traps. Built for Devin Hacks Kochi 2026.
 
-</div>
+**Inside:** Three.js · frontier exploration · A* · server-side room validation
+
+### 02 · [PageRadar](https://github.com/noel-ult/PageRadar)
+
+For the webpages you keep checking manually. A monitoring beta that detects meaningful changes and shows the before-and-after evidence, backed by durable checks, retries, and alerts.
+
+**Inside:** Next.js · NestJS / GraphQL · PostgreSQL · BullMQ / Redis
+
+### 03 · [TruthLens](https://github.com/noel-ult/Truthlens)
+
+An experiment in telling real and AI-generated images apart. A CLIP-based detector, comparison models, and a Streamlit inspection app—with evaluation results and limitations documented in the repo.
+
+**Inside:** Python · PyTorch · CLIP · scikit-learn · Streamlit
+
+### 04 · [Choru Vaari Kodukkam](https://github.com/noel-ult/chooru-varal)
+
+How many handfuls of rice are on that plate? Hand landmarks estimate your vaari capacity; image segmentation estimates the choru. A suspiciously serious answer to a wonderfully unnecessary question. Built with Samuel Thomas C.
+
+**Inside:** TypeScript · Next.js · MediaPipe · Canvas · TinkerHub Useless Projects
+
+## On the bench lately
+
+Agents whose decisions you can inspect, web systems that survive failed jobs, and computer vision experiments that make me question the dataset before trusting the result.
+
+**Tools within reach:** TypeScript, Python, React / Next.js, FastAPI / NestJS, PostgreSQL, Docker, and Linux.
+
+---
+
+Got an interesting build, a strange idea, or a better way to solve one of these? [Let's compare notes.](https://www.linkedin.com/in/noel-biju-788b81332)
 
 <!-- documentation-navigation -->
 [Developer guide](docs/PROJECT_GUIDE.md) · [Source reference](docs/REFERENCE.md) · [Contributing](CONTRIBUTING.md)
